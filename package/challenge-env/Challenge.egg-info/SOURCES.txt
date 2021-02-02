@@ -1,0 +1,8 @@
+MANIFEST.in
+VERSION.txt
+requirements.txt
+setup.py
+Challenge.egg-info/PKG-INFO
+Challenge.egg-info/SOURCES.txt
+Challenge.egg-info/dependency_links.txt
+Challenge.egg-info/top_level.txt

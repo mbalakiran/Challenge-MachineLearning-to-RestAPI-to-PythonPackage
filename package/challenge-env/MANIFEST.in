@@ -1,0 +1,15 @@
+include *.txt
+include *.md
+include *.cfg
+include *.pkl
+
+include package/challenge-env/Challenge/train.csv
+include package/challenge-env/Challenge/test.csv
+include package/challenge-env/Challenge/Trainedmodel/*.pkl
+include package/challenge-env/Challenge/templates/*.html
+
+include package/challenge-env/requirements.txt
+exclude *.log
+
+recursive-exclude * __pycache__
+recursive-exclude * *.pylint.d
